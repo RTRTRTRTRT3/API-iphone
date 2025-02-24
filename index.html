@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+</head>
+<body style="margin: 0; font-family: inter;">
+    <header>
+        <div id="nav-div" style="display: flex; justify-content: center; gap: 60px; text-align: center; align-items: center; padding: 10px;">
+            <img src="/Iphone sobaki baidena 22-02-25/assets/icons/header icons/Logo.png" alt="">
+            <div id="search-bar" style="display: flex; background-color: #f5f5f5; border-radius: 10px; height: 50px; width: 400px;">
+                <img src="assets/icons/header icons/Search.png" alt=""></img>
+                <input type="text" placeholder="Search" style="background: none; border: none;">
+            </div>
+            
+            <h3>Home</h3>
+            <h3 style="color: darkgrey;">About</h3>
+            <h3 style="color: darkgrey;">Contact us</h3>
+            <h3 style="color: darkgrey;">Blog</h3>
+            <div style="display: flex; gap: 20px;"> 
+                <img src="assets/icons/header icons/Favorites.png"></img>
+                <img src="assets/icons/header icons/Cart.png"></img>
+                <img src="assets/icons/header icons/User.png"></img>
+            </div>
+        </div>
+    </header>
+
+
+    <style>
+@media (max-width: 700px) {
+    #nav-div > h3,
+    #search-bar,
+    #nav-div > div:last-child {
+        display: none;
+    }
+
+    #product-grid
+     {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .Iphone-pro {
+        display: none !important;
+    }
+
+    .section2,
+    .section5,
+    .section3,
+    #product-grid-2 {
+        display: none;
+    }
+
+    .section4 {
+        grid-template-columns: 1fr;
+    }
+
+    footer {
+        display: none;
+    }
+
+    .summerSale{
+        display: none;
+    }
+}
+#product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+@media (max-width: 900px) {
+    #product-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 10px;
+    }
+}
+
+
+
+
+    </style>
+
+    <div class="Iphone-pro" style="background-color: #211c24; width: 100%; color: white; display: flex; justify-content: center;">
+            <div style="width: 70%; line-height: 10px;">
+                <h3 style="font-weight: 800;">Pro.Beyond.</h3>
+                <h1 style="font-size: 70px; font-weight: 100;">IPHONE 14 <strong>Pro</strong></h1>
+                <p style="color: #909090;">Created to change everything for the better. For everyone</p>
+                <button style="background: none; border: solid 1px white; border-radius: 5px; color: white; padding: 20px 50px;">Shop now</button> 
+            </div>
+    
+    </div>
+
+
+    <!-- попозже сделаю -->
+    <section class="section2" style="height: 600px;">
+        <div style="display: grid; grid-template-columns: 50% 50%; height: 100%;">
+            <div style="display: grid; grid-template-rows: 1fr 1fr;">
+                <div style="background-repeat: no-repeat; background-size: cover; background-image: url('assets/Wide Square.png');"></div>
+                <div style="display: grid; grid-template-columns: 50% 50%;">
+                    <div style="background-repeat: no-repeat; background-size: cover; background-image: url('assets/square banner white.png');"></div>
+                    <div style="background-repeat: no-repeat; background-size: cover; background-image: url('assets/square banner black.png');"></div>
+                </div>
+            </div>
+            <div style="background-image: url('assets/Big Banner.png'); background-size: cover;"></div>
+        </div>
+    </section>
+    
+
+
+
+
+
+    <!-- section 3 -->
+     <!-- font inter -->
+    <section class="section3" style="padding: 150px;">
+        <div>
+            <div style="display: flex; justify-content: space-between;">
+                <h3>Browse By Categories</h3>
+                <div>
+                    <img src="assets/icons/section3 icons/arrows/Arrow.png">    
+                    <img src="assets/icons/section3 icons/arrows/Arrow-1.png"> 
+                </div>
+            </div>
+            <br>
+            <br>
+            <div style="display: grid; grid-template-columns: repeat(6, 1fr); gap: 40px;">
+                <div class="icon-item">
+                    <img src="assets/icons/section3 icons/phones.png" alt="">
+                    <h3>Phones</h3>
+                </div>
+                <div class="icon-item">
+                    <img src="assets/icons/section3 icons/Smart Watches.png" alt="">
+                    <h3>Smart Watches</h3>
+                </div>
+                <div class="icon-item">
+                    <img src="assets/icons/section3 icons/Cameras.png" alt="">
+                    <h3>Cameras</h3>
+                </div>
+                <div class="icon-item">
+                    <img src="assets/icons/section3 icons/Headphones.png" alt="">
+                    <h3>Headphones</h3>
+                </div>
+                <div class="icon-item"> 
+                    <img src="assets/icons/section3 icons/Computers.png" alt="">
+                    <h3>Computers</h3>
+                </div>
+                <div class="icon-item">
+                    <img src="assets/icons/section3 icons/Gaming.png" alt="">
+                    <h3>Gaming</h3>
+                </div>
+    
+            </div>
+        </div>
+            
+        </section>
+        </div>
+      
+        
+  
+    <style>
+        .icon-item{
+            background-color: #EDEDED;
+            border-radius: 10px;
+            padding: 30px;
+            display: block;
+            text-align: center;
+            }
+    </style>
+
+
+
+<!-- section4 -->
+    <section class="section4" style="padding: 150px;">
+        <div>
+            <div style="display: flex; justify-content: start; gap: 70px;">
+                <h3>New Arrival</h3>
+                <h3>Best Sellers</h3>
+                <h3>Recommended</h3>
+            </div>
+
+            <div id="product-grid" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px;">
+                <!-- тут инфа -->
+            </div>
+        </div>
+    </section>
+
+    <script>    
+        // Функция для загрузки данных из JSON
+        async function loadProducts() {
+            try {
+                const response = await fetch('iphones.json'); // Убедитесь, что путь к файлу правильный
+                const products = await response.json(); // Загрузка данных из JSON
+
+                const productGrid = document.getElementById('product-grid');
+
+                // Создание элементов для каждого продукта
+                products.phones.forEach((product, index) => {
+                    if (index < 8) {
+                        const productItem = document.createElement('div');
+                        productItem.className = 'json-item';
+                        productItem.innerHTML = `
+                        <div style="padding: 40px;">
+                            <div style="height: 200px; overflow: hidden;">
+                                <img src="assets/products/${product.image}.png" alt="${product.model}" style="width: 100%; height: auto; object-fit: cover;"> <!-- Замените на реальный путь к изображению -->
+                            </div>
+                            <h4 style="text-align: center;">${product.model}</h4>
+                            <h3 style="text-align: center;">${product.price}</h3>
+                            <button style="background: black; color: white; border: none; padding: 10px 70px; border-radius: 5px; cursor: pointer;">Buy now</button>
+                            </div>
+                        `;
+                        productGrid.appendChild(productItem);
+                    }
+                });
+            } catch (error) {
+                console.error('Ошибка при загрузке данных:', error);
+            } 
+        }
+
+        // Вызов функции загрузки продуктов
+        loadProducts();
+    </script>
+
+
+    <style>
+        .json-item{
+            background-color: grey;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+
+
+
+<section class="section5">
+    <div style="width: 100%; display: grid; grid-template-columns: repeat(4, 1fr);">
+        <div class="json-items" style="background-color:#ffffff; overflow: hidden; display: flex; flex-direction: column;">
+            <img src="assets/section4/Group 1.png" alt="" style="width: 100%; height: 50%; object-fit: cover;">
+            <div class="text-card">
+                <h1>Popular Products</h1>
+                <p>iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.</p>
+                <button>Shop now</button>
+            </div>
+        </div>
+        <div class="json-items" style="background-color: #F9F9F9; overflow: hidden; display: flex; flex-direction: column;">
+            <img src="assets/section4/image 64.png" alt="" style="width: 100%; height: 50%; object-fit: cover;">
+            <div class="text-card">
+                <h1>Ipad Pro</h1>
+                <p>iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.</p>
+                <button>Shop now</button>
+            </div>
+        </div>
+        <div class="json-items" style="background-color: #EAEAEA; overflow: hidden; display: flex; flex-direction: column;">
+            <img src="assets/section4/image 41.png" alt="" style="width: 100%; height: 50%; object-fit: cover;">
+            <div class="text-card">
+                <h1>Samsung Galaxy</h1>
+                <p>iPad combines a magnificent 10.2-inch Retina display, incredible performance, multitasking and ease of use.</p>
+                <button>Shop now</button>
+            </div>
+        </div>
+        <div class="json-items" style="background-color: #2C2C2C; overflow: hidden; display: flex; flex-direction: column;">
+            <img src="assets/section4/Macbook 1.png" alt="" style="width: 100%; height: 50%; object-fit: cover;">
+            <div class="text-card" style="color: white;">
+                <h1>Macbook Pro</h1>
+                <p>iPad combines a magnificent 10.2-inch Retidddddddddddddddna display, incredible performance, multitasking and ease of use.</p>
+                <button style="border: solid 2px white; color: white;">Shop now</button>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<style>
+    .json-items{
+        padding: 40px;
+    }
+
+    .text-card{
+        padding: 30px;
+        height: 50%;
+    }
+
+    .text-card button{
+        background: none;
+        border: solid 2px rgb(24, 24, 24);
+        border-radius: 10px;
+        padding: 20px 60px;
+
+    }
+</style>
+
+
+
+<section style="padding: 150px;">
+    <div>
+        <div style="display: flex; justify-content: start; gap: 20px;">
+            <h3>New Arrival</h3>
+            <h3>Best Seller</h3>
+            <h3>Featured Products</h3>
+        </div>
+
+        <div id="product-grid-2" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px;">
+            <!-- Данные из JSON будут вставлены сюда -->
+        </div>
+    </div>
+</section>
+
+<script>
+    // Функция для загрузки данных из JSON
+    async function loadProducts() {
+            try {
+                const response = await fetch('iphones.json'); // Убедитесь, что путь к файлу правильный
+                const products = await response.json(); // Загрузка данных из JSON
+
+                const productGrid = document.getElementById('product-grid-2');
+
+                // Создание элементов для каждого продукта
+                products.phones.forEach((product, index) => {
+                    if (index < 4) {
+                        const productItem = document.createElement('div');
+                        productItem.className = 'json-item';
+                        productItem.innerHTML = `
+                        <div style="padding: 40px;">
+                            <div style="height: 200px; overflow: hidden;">
+                                <img src="assets/products/${product.image}.png" alt="${product.model}" style="width: 100%; height: auto; object-fit: cover;"> <!-- Замените на реальный путь к изображению -->
+                            </div>
+                            <h4 style="text-align: center;">${product.model}</h4>
+                            <h3 style="text-align: center;">${product.price}</h3>
+                            <button style="background: black; color: white; border: none; padding: 10px 70px; border-radius: 5px; cursor: pointer;">Buy now</button>
+                            </div>
+                        `;
+                        productGrid.appendChild(productItem);
+                    }
+                });
+            } catch (error) {
+                console.error('Ошибка при загрузке данных:', error);
+            }
+        }
+
+        // Вызов функции загрузки продуктов
+        loadProducts();
+</script>
+
+<style>
+    .json-item {
+        background-color: lightgrey;
+        border-radius: 10px;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .json-item img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+</style>
+
+
+
+<!-- summer sale -->
+<div class="summerSale">
+ <section style="background-image: url('assets/Banner 2.png'); background-size: cover; object-fit: cover; width: 100%; height: auto; display: flex; justify-content: center; padding: 60px 0;">
+<div style="text-align: center; color: white;">
+    <div style="line-height: 10px;">
+        <h1 style="font-size: 80px;">Big Summer <strong>Sale</strong></h1>
+        <h3 style="color: #909090;">Commodo fames vitae vitae leo mauris in. Eu consequat.</h3> 
+    </div>
+    <br>
+   <button style="background: none;
+   border: solid 2px white;
+   border-radius: 10px;
+   padding: 20px 60px; color: white;">Shop now</button>
+</div>
+</section>   
+</div>
+
+
+
+
+<footer style="background-color: black; color: white; padding: 170px;">
+    <div>
+        <div style="display: flex; justify-content: space-around; gap: 100px;">
+            <div style="display: block;">
+                <h3><strong>Cyber</strong></h3>
+                <h3 style="width: 400px;">We are a residential interior design firm located in Portland. Our boutique-studio offers more than</h3>
+            </div>
+            <div style="display: block;">
+                <h3><strong>Services</strong></h3>
+                <h3>bonus program</h3>
+                <h3>Gift cards</h3>
+                <h3>Credit and payment</h3>
+                <h3>Service contracts</h3>
+                <h3>non-cash account</h3>
+                <h3>Payment</h3>
+            </div>
+            <div style="display: block;">
+                <h3><strong>Assistance to the buyer</strong></h3>
+                <h3>Find an order</h3>
+                <h3>Term of delivery</h3>
+                <h3>exchange and return of goods</h3>
+                <h3>Guaranee</h3>
+                <h3>Frequently asked questions</h3>
+                <h3>Terms of use of the site</h3>
+            </div>
+        </div>
+    
+        <div>
+            <!-- social -->
+            <img src="assets/footer icons/Twitter.png" alt="">
+            <img src="assets/footer icons/Facebook.png" alt="">
+            <img src="assets/footer icons/Tiktok.png" alt="">
+            <img src="assets/footer icons/Instagram.png" alt="">
+        </div>
+    </div>
+</footer>
+
+<style>
+    footer h3{
+        font-weight: 100;
+    }
+    
+    body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.item {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    flex: 1 1 300px; /* Гибкая ширина */
+    max-width: 400px;
+}
+
+
+</style>
+</body>
+</html>

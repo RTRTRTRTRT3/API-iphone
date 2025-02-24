@@ -1,0 +1,27 @@
+{
+  "phones": [
+    {"id":1,"model":"Apple iPhone 14 Pro Max","description":"128GB Deep Purple","price":"$900", "image":"Iphone 14 pro 1"},
+    {"id":14,"model":"Apple iPhone 11","description":"128 GB White (MQ233)","price":"$150", "image":"Iphone 15 pro"},
+    {"id":15,"model":"Apple iPhone 11","description":"128 GB White (MQ233)","price":"$550", "image":"Iphone 14 pro 1"},
+    {"id":18,"model":"Apple iPhone 14 Pro","description":"128GB Deep Purple (MQ0G3)","price":"$1600", "image":"Iphone 14 pro 1"},
+    {"id":19,"model":"Apple iPhone 13 mini","description":"128GB Pink (MLK23)","price":"$850", "image":"Image"},
+    {"id":20,"model":"Apple iPhone 14 Pro","description":"256GB Space Black (MQ0T3)","price":"$3499", "image":"zfold"},
+    {"id":21,"model":"Apple iPhone 14 Pro","description":"256GB Silver (MQ103)","price":"$1399", "image":"Iphone 14 pro 1"}
+  ],
+  "watches": [
+    {"id":3,"model":"Apple Watch Series 9 GPS","description":"41mm Starlight Aluminium","price":"$399", "image":"gwatch"},
+    {"id":5,"model":"Samsung Galaxy Watch6","description":"Classic 47mm Black","price":"$369", "image":"gwatch"},
+    {"id":11,"model":"Apple Watch Series 9 GPS","description":"41mm Starlight Aluminium","price":"$399", "image":"apple watch"}
+  ],
+  "headphones": [
+    {"id":4,"model":"AirPods Max Silver","description":"Starlight Aluminium ","price":"$549", "image":"airpods"},
+    {"id":7,"model":"Galaxy Buds FE","description":"Graphite","price":"$99.99", "image":"buds"},
+    {"id":10,"model":"AirPods Max Silver","description":"Starlight Aluminium ","price":"$549", "image":"airpods"}
+  ],
+  "cameras": [
+    {"id":2,"model":"Blackmagic Pocket Cinema","description":"Camera 6k","price":"$2535", "image":"bmpcc 6k"}
+  ],
+  "computers": [
+    {"id":8,"model":"Apple iPad 9 10.2 64GB Wi-Fi","description":"Silver (MK2L3) 2021","price":"$398", "image":"2081466"}
+  ]
+}
