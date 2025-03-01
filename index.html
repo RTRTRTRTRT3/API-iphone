@@ -188,15 +188,14 @@
     </section>
 
     <script>    
-        // Функция для загрузки данных из JSON
+
         async function loadProducts() {
             try {
-                const response = await fetch('iphones.json'); // Убедитесь, что путь к файлу правильный
-                const products = await response.json(); // Загрузка данных из JSON
+                const response = await fetch('iphones.json');
+                const products = await response.json();
 
                 const productGrid = document.getElementById('product-grid');
 
-                // Создание элементов для каждого продукта
                 products.phones.forEach((product, index) => {
                     if (index < 8) {
                         const productItem = document.createElement('div');
@@ -219,7 +218,6 @@
             } 
         }
 
-        // Вызов функции загрузки продуктов
         loadProducts();
     </script>
 
@@ -303,21 +301,20 @@
         </div>
 
         <div id="product-grid-2" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px;">
-            <!-- Данные из JSON будут вставлены сюда -->
+
         </div>
     </div>
 </section>
 
 <script>
-    // Функция для загрузки данных из JSON
     async function loadProducts() {
             try {
-                const response = await fetch('iphones.json'); // Убедитесь, что путь к файлу правильный
-                const products = await response.json(); // Загрузка данных из JSON
+                const response = await fetch('iphones.json');
+                const products = await response.json();
 
                 const productGrid = document.getElementById('product-grid-2');
 
-                // Создание элементов для каждого продукта
+
                 products.phones.forEach((product, index) => {
                     if (index < 4) {
                         const productItem = document.createElement('div');
@@ -340,7 +337,7 @@
             }
         }
 
-        // Вызов функции загрузки продуктов
+
         loadProducts();
 </script>
 
@@ -441,7 +438,7 @@
     background-color: lightblue;
     padding: 20px;
     text-align: center;
-    flex: 1 1 300px; /* Гибкая ширина */
+    flex: 1 1 300px;
     max-width: 400px;
 }
 
